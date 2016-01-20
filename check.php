@@ -6,7 +6,7 @@
 			window.onunload = function(){};
 			history.forward();
 		</script>
-		<title>PHP基礎</title>
+		<title>PHP基礎＜アンケート送信確認画面＞</title>
 	</head>
 	<body>
 		<?php
