@@ -29,19 +29,14 @@
 				echo '<form>';
 				echo '<input type="button" onclick="history.back()" value="戻る">';
 				echo '</form>';
-			// }elseif($rec==NOT EXISTS){
-			// 	echo 'コードが存在しません<br /><br />';
-			// 	echo '<form>';
-			// 	echo '<input type="button" onclick="history.back()" value="戻る">';
-			// 	echo '</form>';
-			// 	break;
+
 			}elseif($rec==false){
 				echo '検索結果がありませんでした。<br /><br />';
 				echo '<form>';
 				echo '<input type="button" onclick="history.back()" value="戻る">';
 				echo '</form>';
+
 			}else{
-			
 				echo $rec['code'];
 				echo $rec['nickname'];   //1レコード分のデータを表示する
 				echo $rec['email'];
@@ -54,19 +49,7 @@
 
 			}
 
-			// while(1)
-			// {
-			// $rec = $stmt->fetch(PDO::FETCH_ASSOC); //1レコード取り出し
-			// if($rec==false) //if文「もしもうデータがなければ」
-			// {
-			// 	break; //ループを抜けてDB切断する
-			// }
-			// echo $rec['code'];
-			// echo $rec['nickname'];   //1レコード分のデータを表示する
-			// echo $rec['email'];
-			// echo $rec['goiken'];
-			// echo '<br />';
-			// }
+
 
 
 			// DB切断
