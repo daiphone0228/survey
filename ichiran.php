@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>PHP基礎</title>
+		<title>PHP基礎＜データベース一覧表示＞</title>
 	</head>
 	<body>
 	<?php
